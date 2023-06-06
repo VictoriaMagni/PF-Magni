@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;700&family=Roboto:wght@500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -7,119 +7,146 @@
 }
 
 body {
-    background-color: #a89e96;
+    background-color: #242424;
 }
 
 /* HEADER */
 
-nav {
-    background-color: #a89e96;
-    padding: 25px;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-
 nav ul li {
-    display: inline;
     padding: 10px;
-    margin: 10px;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     font-weight: bold;
 }
 
-nav ul li a {
-    color: #191919;
-    text-decoration: none;
-}
-
-.navbar-brand {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    padding-left: 20px;
-}
-
 /* INICIO */
 
-main {
-    padding: 10px 30px;
-}
-
 h1 {
-    color: #191919;
-    background-color: #8a8179;
+    color: #ffffffee;
+    background-color: rgb(196, 42, 42);
     font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+    font-size: 70px;
     text-align: center;
     padding: 20px;
-    margin-bottom: 30px;
-    border: 1px solid rgb(100, 86, 86);
 }
 
 .carousel {
-    margin: 10px;
+    margin: 40px;
+}
+
+h2 {
+    color: #ffffffee;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .container {
     display: flex;
-    background-color: #77726c;
-}
-
-.container div p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    text-align: justify;
+    background-color: #242424;
 }
 
 .container p {
+    color: #ffffffee;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-align: justify;
     padding: 20px;
-}
-
-h2 {
-    color: #191919;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    text-align: center;
-    padding: 30px 20px 10px 20px;
 }
 
 .lista-spotify {
     padding: 30px;
 }
 
+/* DISCOGRAFÍA */
+
+.cards {
+    text-align: center;
+    background-color: #242424;
+    padding: 15px;
+}
+
+.card-body {
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    margin: 15px;
+    background-color: #242424;
+}
+
+.card-body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-body h2 {
+    padding-top: 20px;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+/* PELÍCULA */
+
+.pelicula {
+    display: flex;
+    background-color: #242424;
+}
+
+.pelicula p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffffee;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.peli img {
+    width: 50%;
+    height: 50%;
+}
+
+.peli p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffffee;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
 /* GALERÍA */
 
-.grilla2 {
+.grilla {
     display: grid;
-    gap: 15px;
-    background-color: #a89e96;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(4, 500px);
+    margin: 10px;
+    gap: 10px;
+    background-color: #242424;
+    grid-template-columns: repeat(7, 2fr);
+    grid-template-rows: repeat(4, 280px);
     grid-template-areas:
-    'area1 area1 area5'
-    'area8 area4 area2'
-    'area6 area6 area2'
-    'area7 area9 area3'
+    'area1 area2 area2 area3 area4 area4 area5'
+    'area6 area6 area7 area7 area8 area9 area9'
+    'area10 area10 area11 area11 area12 area13 area13'
+    'area14 area14 area15 area15 area16 area16 area17'
 }
 
 .caja {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 5px 5px 7px 0px #515151;
 }
 
 .caja img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 .c1 {
@@ -158,86 +185,67 @@ h2 {
     grid-area: area9;
 }
 
-/* DISCOGRAFÍA */
-
-.cards {
-    text-align: center;
-    background-color: #a89e96;
-    padding: 15px;
+.c10 {
+    grid-area: area10;
 }
 
-.card-body img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 1px solid #191919;
+.c11 {
+    grid-area: area11;
 }
 
-.card-body {
-    display: inline-block;
-    width: 30%;
-    text-align: justify;
-    margin: 15px;
-    background-color: rgb(127, 124, 122);
-    position: relative;
+.c12 {
+    grid-area: area12;
 }
 
-.card-body h2 {
-    padding: 10px;
+.c13 {
+    grid-area: area13;
 }
 
-.card-body p {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
+.c14 {
+    grid-area: area14;
 }
 
-/* PELÍCULA */
-
-.intro {
-    display: flex;
-    background-color: #77726c;
-    margin: 20px;
+.c15 {
+    grid-area: area15;
 }
 
-.intro div p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    text-align: justify;
+.c16 {
+    grid-area: area16;
 }
 
-.intro p {
-    padding: 20px;
-}
-
-.intro img {
-    width: 50%;
-    height: 50%;
+.c17 {
+    grid-area: area17;
 }
 
 /* CONTACTO */
 
-.form {
-    margin: 30px;
-    color: rgb(100, 86, 86);
-    font-family: 'Bebas Neue', cursive;
+h4 {
+    color: #ffffffee;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    margin: 20px;
+    color: rgb(115, 105, 105);
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
-.form div {
+form div {
     padding: 10px;
-}
-
-.form-img {
-    margin: 0 30px;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: #a89e96;
+    background-image: url(../assets/footer.jpg);
+    background-attachment: fixed;
     padding: 10px;
-    margin: 30px 0;
     text-align: center;
 }
 
@@ -250,11 +258,8 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #191919;
     padding: 10px;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 15px;
 }
 
 .img-logo {
@@ -306,7 +311,7 @@ footer ul li a {
         padding: 20px;
     }
 
-    .grilla2 {
+    .grilla {
         gap: 5px;
         grid-template-columns: repeat(1, 2fr);
         grid-template-rows: repeat(9, 400px);

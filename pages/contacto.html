@@ -12,69 +12,66 @@
 <body>
 
     <header>
-        <nav class="navbar bg-gradient">
+        <nav class="navbar bg-white navbar-expand-sm">
             <div class="container-fluid">
-                <a class="navbar-brand">PINK FLOYD</a>
+                <img src="../assets/pink-floyd-logo.jpg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link text-uppercase" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
+                            <a class="nav-link text-uppercase" href="discografia.html">Discografía</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pelicula.html">Película</a>
+                            <a class="nav-link text-uppercase" href="pelicula.html">Película</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="galeria.html">Galería</a>
+                            <a class="nav-link text-uppercase" href="galeria.html">Galería</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                            <a class="nav-link text-uppercase" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
-              </div>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <h1>Newsletter</h1>
-        <div>
-            <img src="../assets/the-wall-illustration.webp" class="imagen-principal">
-        </div>
-        <h2>Suscribite para enterarte de todas las novedades de Pink Floyd</h2>
-        <section class="form">
-            <form>
-                <div>
-                    <label for="nombre">NOMBRE:</label>
-                    <input type="text" name="nombre" placeholder="Nombre y apellido">
-                </div>
-                <div>
-                    <label for="edad">EDAD:</label>
-                    <input type="number" name="edad" placeholder="Edad">
-                </div>
-                <div>
-                    <label for="pais">PAÍS:</label>
-                    <input type="text" name="pais" placeholder="País de origen">
-                </div>
-                <div>
-                    <label for="email">E-MAIL:</label>
-                    <input type="email" name="email" placeholder="Correo electrónico">
-                </div>
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </section>
+        <h4>¡Enterate antes que nadie de las últimas novedades!</h4>
+        <img src="../assets/the-wall-illustration2.jpg">
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Nombre y apellido">
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" placeholder="Edad">
+            </div>
+            <div>
+                <label for="pais">País:</label>
+                <input type="text" name="pais" placeholder="País de origen">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="Correo electrónico">
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
     </main>
 
     <footer>
