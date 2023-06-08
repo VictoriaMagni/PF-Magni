@@ -1,0 +1,22 @@
+/* CONTACTO */
+
+h4 {
+    color: $main-color;
+    font-family: $text-font;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+  
+form {
+    margin: 20px;
+    color: rgb(115, 105, 105);
+    font-family: $text-font;
+    font-size: 20px;
+    text-align: center;
+  
+    div {
+        padding: 10px;
+    }
+}

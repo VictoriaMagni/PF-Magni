@@ -1,0 +1,30 @@
+/* PELÍCULA */
+
+.pelicula {
+    display: flex;
+    background-color: $background-color;
+
+    p {
+        font-family: $text-font;
+        color: $main-color;
+        font-size: 20px;
+        text-align: justify;
+        padding: 20px;
+    }
+}
+
+.peli {
+    img {
+        width: 50%;
+        height: 50%;
+    }
+  
+    p {
+        font-family: $text-font;
+        color: $main-color;
+        font-size: 20px;
+        text-align: justify;
+        padding: 20px;
+    }
+}
+  

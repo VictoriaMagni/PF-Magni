@@ -1,0 +1,27 @@
+/* FOOTER */
+
+footer {
+    background-image: url(../assets/footer.jpg);
+    background-attachment: fixed;
+    padding: 10px;
+    text-align: center;
+  
+    ul {
+        list-style-type: none;
+  
+        li {
+            display: inline-flex;
+  
+            a {
+                padding: 10px;
+                text-align: center;
+            }
+        }
+    }
+  }
+  
+.img-logo {
+    width: 40px;
+    height: 40px;
+}
+

@@ -1,0 +1,45 @@
+/* INICIO */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;700&family=Roboto:wght@500;700;900&display=swap');
+
+body {
+    background-color: $background-color;
+  
+    h1 {
+        color: $main-color;
+        background-color: $title-color;
+        font-family: $title-font;
+        font-size: 70px;
+        text-align: center;
+        padding: 20px;
+    }
+  
+    .carousel {
+        margin: 40px;
+    }
+  
+    h2 {
+        color: $main-color;
+        font-family: $title-font;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+  
+    .container {
+        display: flex;
+        background-color: $background-color;
+  
+        p {
+            color: $main-color;
+            font-family: $text-font;
+            font-size: 20px;
+            text-align: justify;
+            padding: 20px;
+        }
+    }
+  
+    .lista-spotify {
+        padding: 30px;
+    }
+}
