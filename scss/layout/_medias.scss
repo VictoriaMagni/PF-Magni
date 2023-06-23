@@ -48,26 +48,23 @@
     
         .grilla {
             gap: 5px;
-            grid-template-columns: repeat(1, 2fr);
-            grid-template-rows: repeat(17, 250px);
+            grid-template-columns: repeat(2, 2fr);
+            grid-template-rows: repeat(14, 50px);
             grid-template-areas:
-            'area5'
-            'area2'
-            'area3'
-            'area4'
-            'area1'
-            'area6'
-            'area7'
-            'area8'
-            'area9'
-            'area10'
-            'area11'
-            'area12'
-            'area13'
-            'area14'
-            'area15'
-            'area16'
-            'area17'
+            'area2 area2'
+            'area1 area3'
+            'area4 area4'
+            'area6 area6'
+            'area7 area7'
+            'area5 area8'
+            'area9 area9'
+            'area10 area10'
+            'area11 area11'
+            'area12 area17'
+            'area13 area13'
+            'area14 area14'
+            'area15 area15'
+            'area16 area16'
         }
     
         .pelicula {
